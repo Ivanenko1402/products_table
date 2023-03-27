@@ -1,46 +1,22 @@
-# Getting Started with Create React App
+## [Demo Link](https://ivanenko1402.github.io/products_table/#/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Hello
+My name is Valentyn and this is my test task.
 
-## Available Scripts
+In this project, if you go to the "Products" page, you will find a table that pulls data from the dummyjson website and saves it to the Redux store.
+By double-clicking, you can edit the content of the table, delete items, and go to the product page to display details. By clicking on the header, you can sort the table by input properties. With the help of forms, you can search for a product by its title or category and add a new custom product. Clicking on the image will open a modal window with a carousel of images.
 
-In the project directory, you can run:
+### Technologies used:
+* React.js
+* React Router
+* React.classNames
+* useSearchParams()
+* React Hooks
+* Fetch
+* Redux toolkit
+* Formik and Yup.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[My CV](https://drive.google.com/file/d/11QSDsK6IyFmbVXv99evpSNxIwUWhzs9v/view?usp=sharing).
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+[My telegramm](https://t.me/ValentynIvanenko).
