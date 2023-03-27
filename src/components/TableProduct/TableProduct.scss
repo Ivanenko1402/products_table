@@ -1,0 +1,66 @@
+.image {
+  width: 100%;
+  height: 60px;
+  max-width: 100px;
+  overflow: hidden;
+  cursor: pointer;
+  margin: 0 auto;
+
+  &_img {
+    width: 100%;
+    height: 100%;
+    
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+.table-row {
+  &-grey {
+   background-color: #f7f7f756;
+  }
+ 
+  &_cell {
+    vertical-align: middle;
+    text-decoration: none;
+    cursor: pointer;
+
+    &_content {
+      height: 100%;
+      width: 100%;
+    }
+
+    &_button {
+      width: 30px;
+      height: 30px;
+    }
+  }
+ }
+
+.is-vcentered {
+  text-align: center;
+ }
+
+.description {
+  max-width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 5px;
+  text-overflow: ellipsis;
+}
+
+.price {
+  min-width: 60px;
+}
+
+.input {
+  border: none;
+  border-bottom: 1px solid #000;
+  width: 100%;
+}
+
+.table-conteiner {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}

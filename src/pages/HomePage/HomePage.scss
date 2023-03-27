@@ -1,0 +1,14 @@
+.home {
+  display: flex;
+
+  &_conteiner {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  &_links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}

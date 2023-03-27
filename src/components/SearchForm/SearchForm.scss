@@ -1,0 +1,43 @@
+
+.form {
+  padding: 15px;
+  box-shadow: 1px 1px 6px #000;
+  border-radius: 20px;
+  min-width: 400px;
+  background-color: #f7f7f756;
+
+  &_title {
+    color: #13722096;
+  }
+
+&_inputs {
+    display: flex;
+    gap: 30px;
+
+    &_selector {
+      padding: 5px;
+      border-radius: 10px;
+      border: none;
+      border-bottom: 1px solid #0000004f;;
+
+      &:focus {
+        box-shadow: 0 0 5px #000;
+        outline: none;
+      }
+    }
+  
+    &_input {
+      padding: 5px;
+      border-radius: 10px;
+      width: 100%;
+      border: none;
+      border-bottom: 1px solid #0000004f;
+
+      &:focus {
+        box-shadow: 0 0 5px #000;
+        outline: none;
+      }
+    }
+  }
+
+}

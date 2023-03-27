@@ -1,0 +1,46 @@
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &_conteiner {
+    display: flex;
+    gap: 40px;
+
+    &_carousel {
+      position: relative;
+      width: 500px;
+    }
+
+    &_content {
+      padding-top: 30px;
+
+      &_text {
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+
+  &_link {
+    display: flex;
+    text-decoration: none;
+    
+    &_button {
+      margin: 30px auto;
+      padding: 10px;
+      text-align: center;
+      font-weight: bold;
+      width: 100px;
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 0 5px #00000054;
+      background-color: transparent;
+
+      &:hover {
+        box-shadow: 0 0 5px #000;
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.TablePage {
+  display: flex;
+  gap: 30px;
+
+  &_conteiner {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+}

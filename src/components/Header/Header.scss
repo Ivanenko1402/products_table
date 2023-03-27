@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  border-bottom: 1px solid #000;
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+
+  &_link {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 22px;
+    color: #000;
+    transition: all 0.5s;
+    padding: 5px;
+    
+    &:hover {
+      font-weight: bold;
+    }
+  }
+}
+
+.active {
+  font-weight: bold;
+}

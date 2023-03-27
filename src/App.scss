@@ -1,0 +1,24 @@
+@import 'bulma/css/bulma.css';
+@import "bootstrap/scss/bootstrap";
+
+@import './pages/TablePage/TablePage.scss';
+@import './pages/HomePage/HomePage.scss';
+@import './pages/ProductInfo/ProductInfo.scss';
+
+@import './components/TableProduct/TableProduct.scss';
+@import './components/Modal/Modal.scss';
+@import './components/Table/Table.scss';
+@import './components/Header/Header.scss';
+@import './components/SearchForm/SearchForm.scss';
+@import './components/AddProductForm/AddProductForm.scss';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 20px;
+  font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+}
