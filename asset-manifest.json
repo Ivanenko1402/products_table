@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Ivanenko1402/products_table.git/static/css/main.b16b88c6.css",
+    "main.js": "/Ivanenko1402/products_table.git/static/js/main.4711eee9.js",
+    "index.html": "/Ivanenko1402/products_table.git/index.html",
+    "main.b16b88c6.css.map": "/Ivanenko1402/products_table.git/static/css/main.b16b88c6.css.map",
+    "main.4711eee9.js.map": "/Ivanenko1402/products_table.git/static/js/main.4711eee9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b16b88c6.css",
+    "static/js/main.4711eee9.js"
+  ]
+}
