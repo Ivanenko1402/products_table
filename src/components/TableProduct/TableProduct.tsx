@@ -72,6 +72,7 @@ export const TableProduct: React.FC<Props> = ({ product, index }) => {
               <input
                 type="text"
                 className="input"
+                autoFocus
                 value={inputValue}
                 onChange={(event => setInputValue(event.target.value))}
                 onBlur={() => submit('title')}
@@ -89,6 +90,7 @@ export const TableProduct: React.FC<Props> = ({ product, index }) => {
               <input
                 type="text"
                 className="input"
+                autoFocus
                 value={inputValue}
                 onChange={(event => setInputValue(event.target.value))}
                 onBlur={() => submit('description')}
@@ -109,6 +111,7 @@ export const TableProduct: React.FC<Props> = ({ product, index }) => {
               <input
                 type="number"
                 className="input"
+                autoFocus
                 value={inputValue}
                 onChange={(event => setInputValue(event.target.value))}
                 onBlur={() => submit('price')}
@@ -143,6 +146,7 @@ export const TableProduct: React.FC<Props> = ({ product, index }) => {
               <input
                 type="number"
                 className="input"
+                autoFocus
                 value={inputValue}
                 onChange={(event => setInputValue(event.target.value))}
                 onBlur={() => submit('rating')}
@@ -163,6 +167,7 @@ export const TableProduct: React.FC<Props> = ({ product, index }) => {
             <input
               type="number"
               className="input"
+              autoFocus
               value={inputValue}
               onChange={(event => setInputValue(event.target.value))}
               onBlur={() => submit('stock')}
@@ -183,6 +188,7 @@ export const TableProduct: React.FC<Props> = ({ product, index }) => {
               <input
                 type="number"
                 className="input"
+                autoFocus
                 value={inputValue}
                 onChange={(event => setInputValue(event.target.value))}
                 onBlur={() => submit('category')}
